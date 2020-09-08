@@ -1,0 +1,29 @@
+cd /home/soyeb/Desktop/
+mkdir git
+cd git/
+git init
+git status
+touch test.txt
+git status
+git add test.txt
+git status
+git commit -m "added test.txt"
+git status
+nano tets.txt
+touch index.html
+git status
+git add .
+git commit -m "added index.html" 
+git status
+git branch -M master
+git remote add origin https://github.com/imStuck/testRepo.git
+git push -u origin master
+git status
+git add .
+git commit -m "added project for the first time"
+cd /home/soyeb/Desktop/git/
+git status
+git branch -M master
+git remote add origin https://github.com/imStuck/testRepo.git
+git remote set-url origin https://github.com/imStuck/test.git
+git push -u origin master

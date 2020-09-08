@@ -1,1 +1,2 @@
 hello world
+git remote set-url origin https://github.com/imStuck/test.git
