@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myApp.views import (my_function, accessIndexFun)
+from myApp.views import (my_function, accessIndexFun, dbView )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", my_function ),
-    path("home" , accessIndexFun)
+    path("home" , accessIndexFun),
+    path("db", dbView)
 ]
